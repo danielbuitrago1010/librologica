@@ -1,0 +1,15 @@
+const prompt = require("prompt-sync")({ sigint: true });
+var a;
+var b;
+var c;
+var discriminante;
+var x1;
+var x2;
+a = parseFloat(prompt('Ingrese a: '));
+b = parseFloat(prompt('Ingrese b: '));
+c = parseFloat(prompt('Ingrese c: '));
+discriminante= Math.pow(b,2)-4*a*c;
+x1 = parseFloat(((-b)+Math.sqrt(discriminante))/(2*a));
+x2 = parseFloat(((-b)-Math.sqrt(discriminante))/(2*a));
+console.log("Solucion x1: "+ x1);
+console.log("Solucion x2: "+ x2);

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contar la cantidad de digitos de un numero</title>
+  </head>
+  <body>
+    <script>
+      let numero = parseInt(prompt("Ingrese el numero"));
+      let contador = 0;
+      while (numero >= 1) {
+        numero = numero / 10;
+        contador = contador + 1;
+      }
+      document.write("el numero tiene "+contador+ " digitos ");
+    </script>
+  </body>
+</html>

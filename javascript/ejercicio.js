@@ -8,7 +8,7 @@ var promedio;
 nota1 = parseFloat(prompt('Ingrese la nota 1: '));
 nota2 = parseFloat(prompt('Ingrese la nota 2: '));
 nota3 = parseFloat(prompt('Ingrese la nota 3: '));
-nota4 = parseFloat(prompt('Ingrese la nota 4: '));
+nota4 = parseFloat(prompt('Ingrese la nota 6: '));
 promedio = (nota1+nota2+nota3+nota4)/4;
 
 console.log("el promedio del estudiante es " + promedio);
